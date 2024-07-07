@@ -19,8 +19,8 @@ const HeroContent = () => {
         The React Framework for the Web
       </h1>
       <p className='text-center text-[#646464] text-[1.25rem] max-w-[800px]'>
-        Used by some of the world's largest companies, Next.js enables you to
-        create{' '}
+        Used by some of the world&apos;s largest companies, Next.js enables you
+        to create{' '}
         <span className='font-semibold text-white '>
           high-quality web applications
         </span>{' '}
