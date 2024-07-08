@@ -1,6 +1,6 @@
 const HeroContent = () => {
   return (
-    <div className='h-[100vh] md:h-[70vh] lg:h-full flex flex-col justify-center items-center'>
+    <div className='h-[100vh] md:h-[70vh] lg:h-full lg:py-[7.5rem] flex flex-col justify-center items-center'>
       <div>
         <p className='text-[#646464] mb-2'>
           Ran <span className='font-semibold text-white '>May 23</span>. Check
