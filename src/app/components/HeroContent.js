@@ -15,7 +15,7 @@ const HeroContent = () => {
           </button>
         </div>
       </div>
-      <h1 className='text-6xl text-center tracking-tight font-bold my-[4rem] '>
+      <h1 className='text-7xl text-center tracking-tight font-bold my-[4rem] '>
         The React Framework for the Web
       </h1>
       <p className='text-center text-[#646464] text-[1.25rem] max-w-[800px]'>
