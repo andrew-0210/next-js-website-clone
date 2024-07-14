@@ -1,16 +1,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import nextLogo from '../assets/next.svg';
+import vercelLogo from '../assets/vercel.svg';
 
 const Navbar = () => {
   return (
     <nav className='px-[2rem] py-[1rem] border-b-[0.4px] border-[#646464] flex justify-between bg-black/50 backdrop-blur fixed w-[100vw] z-[1000]'>
       <div className='flex gap-6 items-center justify-normal'>
         <div className='flex gap-2 items-center justify-normal'>
-          <Image src='/vercel.svg' alt='vercel_logo' width={24} height={20} />
+          <Image src={vercelLogo} alt='vercel_logo' width={24} height={20} />
           <span className='text-[1.75rem] font-extralight text-[#797979]'>
             /
           </span>
-          <Image src='/next.svg' alt='next_logo' width={80} height={20} />
+          <Image src={nextLogo} alt='next_logo' width={80} height={20} />
         </div>
         <ul className='flex text-[0.875rem] text-[#797979] items-center gap-[1rem] font-medium cursor-pointer justify-center'>
           <li>
