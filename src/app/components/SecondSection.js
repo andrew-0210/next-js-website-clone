@@ -55,22 +55,25 @@ const features = [
 
 const SecondSection = () => {
   return (
-    <div className=' flex flex-col justify-center items-center pb-5'>
-      <h2 className='font-semibold tracking-tight text-4xl my-5'>
-        What&apos;s in Next.js?
-      </h2>
-      <p className='text-[1.25rem] text-[#646464] mb-[3rem] text-center'>
-        Everything you need to build great products on the web.
-      </p>
-      <div className='grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 mx-auto'>
-        {features.map(feature => (
-          <Features key={feature.id}>
-            <h3 className='font-bold tracking-tight text-[1.25rem] mb-[8px]'>
-              {feature.h3}
-            </h3>
-            <p className='text-[#727272] text-[0.875rem]'>{feature.p}</p>
-          </Features>
-        ))}
+    <div className='relative flex flex-col justify-center items-center lg:py-[7.5rem] '>
+      <div className='bg-gradient-to-t from-[#272727]  w-[100vw] h-[100vh]  absolute bottom-0 z-0'></div>
+      <div className='z-50'>
+        <h2 className='font-semibold tracking-tight text-4xl my-5 text-center'>
+          What&apos;s in Next.js?
+        </h2>
+        <p className='text-[1.25rem] text-[#646464] mb-[3rem] text-center'>
+          Everything you need to build great products on the web.
+        </p>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 mx-auto'>
+          {features.map(feature => (
+            <Features key={feature.id}>
+              <h3 className='font-bold tracking-tight text-[1.25rem] mb-[8px]'>
+                {feature.h3}
+              </h3>
+              <p className='text-[#727272] text-[0.875rem]'>{feature.p}</p>
+            </Features>
+          ))}
+        </div>
       </div>
     </div>
   );

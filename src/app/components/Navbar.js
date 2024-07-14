@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className='px-[2rem] py-[1rem] border-b-[0.4px] border-[#646464] flex justify-between bg-black/50 backdrop-blur fixed w-[100vw]'>
+    <nav className='px-[2rem] py-[1rem] border-b-[0.4px] border-[#646464] flex justify-between bg-black/50 backdrop-blur fixed w-[100vw] z-[1000]'>
       <div className='flex gap-6 items-center justify-normal'>
         <div className='flex gap-2 items-center justify-normal'>
           <Image src='/vercel.svg' alt='vercel_logo' width={24} height={20} />
